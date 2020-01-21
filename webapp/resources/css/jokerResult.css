@@ -1,0 +1,35 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    overflow: auto;
+}
+
+.main {
+
+    background-color: white;
+    width: 332px;
+    height: 323px;
+
+}
+
+.class-jokerResult-page {
+    background-color: white;
+    width: 95%;
+    height: 95%;
+    font-size: 13px;
+}
+
+caption {
+    display: table-caption;
+    align: top;
+    text-align: center;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+}

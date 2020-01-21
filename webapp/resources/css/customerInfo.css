@@ -1,0 +1,117 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+
+    background-color: white;
+    width: 332px;
+    height: 323px;
+    overflow: auto;
+    float: left;
+
+}
+
+.alert {
+    width: 90%;
+    opacity: 1;
+    transition: opacity 3ms;
+    padding: 7px;
+    background-color: #EF2177;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.close-info-btn {
+    margin-left: 17px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 15px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 3ms;
+}
+
+.close-info-btn:hover {
+    color: black;
+}
+
+.load-info {
+    background-color: #ab0012;
+    color: white;
+    font-weight: bolder;
+    font-size: 13px;
+}
+
+.loading-info {
+    color: red;
+    font-weight: bolder;
+    font-size: 13px;
+    height: 20px;
+}
+
+.loadForm-page {
+    background-color: white;
+    width: 95%;
+    height: 13%;
+    /*overflow: auto;*/
+}
+
+.customerAdd-page {
+    background-color: white;
+    font-size: 13px;
+    width: 95%;
+    height: 35%;
+    /*overflow: auto;*/
+}
+
+.customerList-page {
+    font-size: 13px;
+    width: 95%;
+    height: 55%;
+    /*overflow: auto;*/
+}
+
+input.input-info-class {
+    width: 205px;
+    text-align: left;
+}
+
+input.input-customer-class {
+    text-align: left;
+}
+
+input.input-add-class {
+    text-align: left;
+}
+
+caption {
+    display: table-caption;
+    align: top;
+    text-align: center;
+}
+
+.delete_element-btn {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 1px 1px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.delete_element-btn:hover {
+    background-color: white;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+}
