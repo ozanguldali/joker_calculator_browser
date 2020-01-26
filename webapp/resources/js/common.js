@@ -1,3 +1,4 @@
+let main = document.getElementById( 'main' );
 let closeAlertButton = document.getElementById('close_alert');
 let inputForm = document.getElementById('input_form');
 let initialCostField = document.getElementById('initial_cost');
